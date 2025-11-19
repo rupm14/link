@@ -1,0 +1,14 @@
+github.com/funny/fastapi v0.0.0-20180120063116-16118feb7a8d h1:4XtVTD9VQtBeXyisKTPESi3zMitRaK+TisIYLiVrPt8=
+github.com/funny/fastapi v0.0.0-20180120063116-16118feb7a8d/go.mod h1:o9UctIV7NBMryyQ/kbqsxifSxoyzC6prG83huhOMS2s=
+github.com/funny/fastbin v0.0.0-20161029080037-223b4fecc9b1 h1:obYWWl5ttSFJTGwf1BEm0n67L+XLWjw0qPo+KA51TCg=
+github.com/funny/fastbin v0.0.0-20161029080037-223b4fecc9b1/go.mod h1:sZiiaylXQ4i/lLkh/TYdLxQCpBt72PQ8YLwiWzkA3SU=
+github.com/funny/fastway v0.0.0-20170517015522-9921afa7fca0 h1:ChC9+K/o+RFi82qwZpe7+qa39GS8p3tbh/YQ+CnaXvk=
+github.com/funny/fastway v0.0.0-20170517015522-9921afa7fca0/go.mod h1:0gNdzfCKE2Z2YH9CeSwizuyDq/BLvDp9DF10H+GP+p0=
+github.com/funny/link v0.0.0-20190805113223-98708916287b h1:10z91K3w/nwTxulupVpdrR+8NhzyWufPbGgvy3zYscQ=
+github.com/funny/link v0.0.0-20190805113223-98708916287b/go.mod h1:ajJ48jAHusPjnL6cGCP4+f2JoOjBUttNeVas4w9NXtc=
+github.com/funny/pprof v0.0.0-20151224073220-98f026be1494 h1:H8PXm18qZMODO29K00do4yN237yJlKe3Dkh5Ev9rSG0=
+github.com/funny/pprof v0.0.0-20151224073220-98f026be1494/go.mod h1:p4+HG+QvEZZpVKhV9P+OaxWLU425ivTZfdw+M9Jlxts=
+github.com/funny/slab v0.0.0-20180511031532-b1fad5e5d478 h1:Db9StoJ6RZN3YttC0Pm0I4Y5izITRYch3RMbT59BYN0=
+github.com/funny/slab v0.0.0-20180511031532-b1fad5e5d478/go.mod h1:0j1+svBH8ABEIPdUP0AIg4qedsybnXGJBakCEw8cfoo=
+github.com/funny/utest v0.0.0-20161029064919-43870a374500 h1:Z0r1CZnoIWFB/Uiwh1BU5FYmuFe6L5NPi6XWQEmsTRg=
+github.com/funny/utest v0.0.0-20161029064919-43870a374500/go.mod h1:mUn39tBov9jKnTWV1RlOYoNzxdBFHiSzXWdY1FoNGGg=
