@@ -28,4 +28,6 @@ func main() {
 		log.Fatal("setup server failed:", err)
 	}
 	go server.Serve()
+
+	client
 }
