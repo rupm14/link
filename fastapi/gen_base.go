@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"git.tube/funny/link"
+	"github.com/funny/link"
 )
 
 var sessionType = reflect.TypeOf((*link.Session)(nil))

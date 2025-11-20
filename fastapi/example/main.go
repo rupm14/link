@@ -7,7 +7,7 @@ import (
 	"funny/fastapi"
 	"funny/fastapi/example/module1"
 
-	"git.tube/funny/fastbin"
+	"github.com/funny/fastbin"
 )
 
 func main() {

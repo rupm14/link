@@ -6,9 +6,9 @@ import (
 	"runtime/debug"
 	"time"
 
-	"git.tube/funny/link"
-	"git.tube/funny/pprof"
-	"git.tube/funny/slab"
+	"github.com/funny/link"
+	"github.com/funny/pprof"
+	"github.com/funny/slab"
 )
 
 type Handler interface {
@@ -39,6 +39,28 @@ func New() *App {
 		SendChanSize: 1024,
 		MaxRecvSize:  64 * 1024,
 		MaxSendSize:  64 * 1024,
+	}
+}
+
+func (app *App) handleSession(session *link.Session, handler Handler) {
+	defer session.Close()
+
+	if handler.InitSession(session) != nil {
+		return
+	}
+
+	for {
+		msg, err := session.Receive()
+		if err != nil {
+			return
+		}
+
+		req := msg.(Message)
+		handler.Transaction(session, req, func() {
+			startTime := time.Now()
+			app.services[req.ServiceID()].(Service).HandleRequest(session, req)
+			app.timeRecoder.Record(req.Identity(), time.Since(startTime))
+		})
 	}
 }
 

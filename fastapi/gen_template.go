@@ -3,7 +3,7 @@ package fastapi
 import (
 	"fmt"
 
-	"git.tube/funny/link"
+	"github.com/funny/link"
 )
 
 type Service interface {

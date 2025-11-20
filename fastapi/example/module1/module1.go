@@ -3,7 +3,7 @@ package module1
 import (
 	"funny/fastapi"
 
-	"git.tube/funny/link"
+	"github.com/funny/link"
 )
 
 type Service struct {

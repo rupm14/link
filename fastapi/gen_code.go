@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.tube/funny/fastbin"
+	"github.com/funny/fastbin"
 )
 
 func GenCode(app *App, apps ...*App) {
