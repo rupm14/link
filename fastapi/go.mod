@@ -3,14 +3,8 @@ module funny/fastapi
 go 1.23.4
 
 require (
-	github.com/funny/fastapi v0.0.0-20180120063116-16118feb7a8d
-	github.com/funny/fastbin v0.0.0-20161029080037-223b4fecc9b1
-)
-
-require (
-	github.com/funny/fastway v0.0.0-20170517015522-9921afa7fca0 // indirect
-	github.com/funny/link v0.0.0-20190805113223-98708916287b // indirect
-	github.com/funny/pprof v0.0.0-20151224073220-98f026be1494 // indirect
-	github.com/funny/slab v0.0.0-20180511031532-b1fad5e5d478 // indirect
-	github.com/funny/utest v0.0.0-20161029064919-43870a374500 // indirect
+	git.tube/funny/fastbin v0.0.0-20220823103532-625138ca844d
+	git.tube/funny/link v0.0.0-20230228061219-3888fe7840de
+	git.tube/funny/pprof v0.0.0-20241231103135-8fc30d50e784
+	git.tube/funny/slab v0.0.0-20220610025411-9fb5b6219b58
 )

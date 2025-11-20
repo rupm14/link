@@ -2,11 +2,12 @@ package main
 
 import (
 	"flag"
+	"log"
 
+	"funny/fastapi"
 	"funny/fastapi/example/module1"
 
-	"github.com/funny/fastapi"
-	"github.com/funny/fastbin"
+	"git.tube/funny/fastbin"
 )
 
 func main() {
@@ -21,4 +22,10 @@ func main() {
 		fastbin.GenCode()
 		return
 	}
+
+	server, err := app.Listen("tcp", "0.0.0.0:0", nil)
+	if err != nil {
+		log.Fatal("setup server failed:", err)
+	}
+	go server.Serve()
 }
