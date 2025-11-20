@@ -29,5 +29,5 @@ func main() {
 	}
 	go server.Serve()
 
-	client
+	client.
 }
